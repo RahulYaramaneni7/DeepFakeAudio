@@ -26,4 +26,7 @@ Three models that show the most promise for our testcase would be
   2. ResNet18 or VGG
   3. RawNet2 with Sinc Filters
 
-`Later concluded that EfficientNet would be suitable as it contains more hidden layers, also shows good performance on spectrogram-like data as it can capture both local time-frequency patterns and global temporal cues.`
+`Later concluded that EfficientNetB0 would be suitable as it contains more hidden layers, also shows good performance on spectrogram-like data as it can capture both local time-frequency patterns and global temporal cues.`
+
+
+
