@@ -17,8 +17,13 @@ This project uses the ASVspoof 2017 dataset, which contains genuine and spoofed 
 - **Link:** https://datashare.ed.ac.uk/handle/10283/3055
 
 ### Selection
-Usecase:
+Use case:
 - Detecting AI-generated human speech
 - Potential for real-time or near real-time detection
 - Analysis of real conversations
+Three models that show the most promise for our testcase would be
+  1. EfficientNetB0 model
+  2. ResNet18 or VGG
+  3. RawNet2 with Sinc Filters
 
+`Later concluded that EfficientNet would be suitable as it contains more hidden layers, also shows good performance on spectrogram-like data as it can capture both local time-frequency patterns and global temporal cues.`
