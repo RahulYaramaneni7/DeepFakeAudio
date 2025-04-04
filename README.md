@@ -85,15 +85,31 @@ Three models that show the most promise for our testcase would be
 `Sensitive to Noise:`
 - Background noise or audio artifacts in real data can confuse the model.
 
-## FUTURE IMPROVEMENTS AND SUGGESTIONS
+## Future improvements/Suggestions
 
-`Train on Larger/Updated Datasets`
+1. `Train on Larger/Updated Datasets`
 - Include more diverse and recent spoofing techniques from newer datasets (e.g., ASVspoof 2019/2021) for better generalization.
 
-`Real-Time Optimization`
+2. `Real-Time Optimization`
+
+### Most significant challenges:
+
+`Handling data imbalance and designing a model that generalizes well to various spoofing techniques without overfitting.`
+
+### Real-world vs. research datasets:
+
+`Performance may drop in real-world scenarios due to unseen spoofing methods, diverse accents, and background noise.`
+
+### Additional data/resources:
+
+`More diverse, real-world spoofed audio samples and access to GPU resources would greatly enhance training and robustness.`
+
+### Deployment approach:
+
+`Convert the model to a lightweight format  and integrate it into an audio pipeline with latency monitoring.`
 
 ## Optional(In case)
 
-`https://github.com/RahulYaramaneni7/DeepFakeAudio`
+**Link:** `https://github.com/RahulYaramaneni7/DeepFakeAudio`
 
 - To access the original code, please scroll to the end of the .ipynb file. You'll find the code snippets there, and keep in mind that the loaded data will be displayed throughout the document. 
