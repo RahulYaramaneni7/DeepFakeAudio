@@ -28,5 +28,8 @@ Three models that show the most promise for our testcase would be
 
 `Later concluded that EfficientNetB0 would be suitable as it contains more hidden layers, also shows good performance on spectrogram-like data as it can capture both local time-frequency patterns and global temporal cues.`
 
+### Model Architecture
+![image](https://github.com/user-attachments/assets/a9da8c26-22aa-476c-afb6-2e1dbb5003d0)
+
 
 
